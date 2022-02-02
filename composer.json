@@ -1,11 +1,19 @@
 {
     "name": "aminnairi/helloworld",
     "description": "Hello, world!",
+    "type": "library",
     "license": "GPL-3.0-or-later",
-    "version": "0.1.2",
     "autoload": {
         "psr-4": {
-            "\\Aminnairi\\Helloworld\\": "./sources/"
+            "Aminnairi\\Helloworld\\": "sources/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "aminnairi",
+            "email": "18418459+aminnairi@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
